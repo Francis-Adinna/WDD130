@@ -1,0 +1,15 @@
+nav{
+    background-color: yellow;
+}
+
+footer{
+    background-color: darkgray;
+    opacity: 0.6;
+    width: 1330px;
+    height: 200px;
+}
+
+footer.h3{
+    background-color: rgb(12, 12, 11);
+   color: rgb(244, 250, 255);
+}
