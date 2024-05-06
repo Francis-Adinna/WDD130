@@ -2,15 +2,15 @@
 
 :root{
     --primary-color: #97caf7;
-    --secondary-color:#071013;
+    --secondary-color:#0B4B84;
     --accent1-color:#472C1B;
     --accent2-color:#F9F9F9;
     --heading-font: "Archivo Black", sans-serif;
     --paragraph-font: "Poppins", sans-serif;
-    --nav-background-color: var(--accent1-color);
-    --nav-link-color:var(--primary-color);
-    --nav-hover-link:var(--primary-color);
-    --nav-hover-background-color:var(--secondary-color);
+    --nav-background-color: #FF715B;
+    --nav-link-color:#071013;
+    --nav-hover-link:#B81800;
+    --nav-hover-background-color:#FFA799;
 
 }
 
