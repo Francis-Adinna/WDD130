@@ -21,17 +21,22 @@ img {
 
 
 aside{
-    width: 20rem;
-    margin: 1rem;
+    width: 20em;
+    margin: 1em;
     border: 1px solid rgb(43, 107, 107);
-    padding: 0.5rem;
+    padding: 1em;
     background-color: #dbfdff;
+    color: #3a5c5e;
     text-align: center;
 }
 
 aside img{
     width: 200px;
     height: auto;
+}
+
+main{
+    max-width: 840px;
 }
 
 main img{
@@ -42,7 +47,7 @@ main img{
 p{ padding: 0;}
 
 footer{
-    margin-top: 10px;
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 
