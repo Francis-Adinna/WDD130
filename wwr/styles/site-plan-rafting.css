@@ -4,7 +4,7 @@
     --primary-color: #97caf7;
     --secondary-color:#0B4B84;
     --accent1-color:#472C1B;
-    --accent2-color:#F9F9F9;
+    --accent2-color:#794c30;
 
     --heading-font: "Archivo Black", sans-serif;
     --paragraph-font: "Poppins", sans-serif;
@@ -32,8 +32,8 @@ header{
     color: var(--secondary-color);
 }
 
-p{
-    padding: 20px;
+main p{
+    padding: 0px;
 }
 
 nav{
