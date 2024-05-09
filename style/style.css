@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -9,8 +15,20 @@ nav a {
     padding: 20px;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+
+div{
+    padding: 1rem;
+}
 h1 {
     color: steelblue;
+    padding-left: 4rem;
 }
 
 img {
@@ -21,18 +39,21 @@ img {
 
 
 aside{
+    position: relative;
     width: 20em;
-    margin: 1em;
-    border: 1px solid rgb(43, 107, 107);
-    padding: 1em;
-    background-color: #dbfdff;
-    color: #3a5c5e;
     text-align: center;
 }
 
 aside img{
     width: 200px;
     height: auto;
+}
+
+aside h2{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color: #000;
 }
 
 main{
@@ -42,6 +63,7 @@ main{
 main img{
     width: 150px;
     height: auto;
+    float: right;
 }
 
 p{ padding: 0;}
@@ -51,4 +73,21 @@ footer{
     border-top: 1px solid #000;
     text-align: center;
     
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(70, 131, 180, 0.2);
+    background-color: hwb(207 73% 0%);
+    color: rgb(50, 56, 63);
+
+}
+
+.clearfix::after{
+    content: "";
+    clear: right;
+    display: table;
 }
