@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,12 +31,6 @@ h1 {
     padding-left: 4rem;
 }
 
-img {
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-
 
 aside{
     position: relative;
@@ -64,9 +58,14 @@ main img{
     width: 150px;
     height: auto;
     float: right;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
 }
 
-p{ padding: 0;}
+p{ padding: 0;
+ }
 
 footer{
     margin-top: 15px;
