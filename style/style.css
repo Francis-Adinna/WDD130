@@ -1,41 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+header, footer, .grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+body {
+    display: block;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+    
+}
+
+main {
+    grid-column: 2;
+    margin: 1rem;
+}
 ul {
     list-style-type: none;
     padding: 0;
 }
 li {
     margin-bottom: 10px;
+    
 }
 
+li a {
+    text-decoration: none;
+}
 div{
     padding: 1rem;
 }
 h1 {
     color: steelblue;
     padding-left: 4rem;
+    border-bottom: 1px solid steelblue;
+    font-size: 1.6rem;
 }
 
 
 aside{
     position: relative;
     width: 20em;
+    grid-column: 1/2;
+    grid-row: 1;
     text-align: center;
+    align-self: flex-start;
 }
 
 aside img{
@@ -45,14 +83,17 @@ aside img{
 
 aside h2{
     position: absolute;
-    top: 50px;
+    top: 90px;
     left: 100px;
-    color: #000;
+    color: #fff;
+    font-size: 1rem;
 }
 
-main{
-    max-width: 840px;
+aside p {
+    padding: 1rem;
 }
+
+
 
 main img{
     width: 150px;
