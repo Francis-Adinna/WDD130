@@ -121,7 +121,7 @@ nav {
 
 .navigation a {
 	display: block;
-	color: rgb(46, 131, 20);
+	color: #000;
 	padding: 20px;
 	text-decoration: none;
     font-family: var(--paragraph-font);
