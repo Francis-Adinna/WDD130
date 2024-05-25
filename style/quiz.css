@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Righteous&display=swap');
+@font-face {
+    font-family: 'Righteous';
+    src: url('fonts/Righteous-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    src: url('fonts/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf') format('truetype');
+}
 
 * {
     margin: 0;
@@ -83,4 +91,8 @@ footer {
     padding: 1rem;
     border-top: 1px solid rgb(123, 141, 153);
     font-size: small;
+}
+
+option, button, textarea, input {
+    font-family: "Bricolage Grotesque", sans-serif;
 }
