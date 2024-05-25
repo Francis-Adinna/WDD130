@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Righteous, sans-serif;
+    color: rgb(32, 78, 178);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.1em;
+    
+}
+
+header {
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 16px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(238, 237, 237);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 10px;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 8px;
+    font-size: 1.2em;
+    color: rgb(32, 78, 178);
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    padding: 1.1rem;
+    background-color: rgb(32, 78, 178);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: rgb(40, 37, 194);
+}
+
+footer {
+    margin: 1rem auto;
+    max-width: 850px;
+    text-align: center;
+    border-top: 1px solid grey;
+    padding: 0.5rem;
+    color: rgb(32, 78, 178);
+    font-size: 0.8em;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.tarea {
+    grid-template-columns: 2fr 2fr;
+    margin: 0.5rem 0;
+}
+button {
+    justify-self: center;
+}
