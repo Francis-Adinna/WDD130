@@ -381,3 +381,7 @@ figcaption{
     border: 1px solid #4e7e21;
     color: #000;
 }
+
+.map iframe {
+    border: none;
+}
