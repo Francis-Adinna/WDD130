@@ -28,6 +28,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
     
+    
 }
 
 p, a {
@@ -62,6 +63,7 @@ main h1 {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 10px;
     width: 100%;
+    font-size: 3.5vw;
     
     
 }
@@ -103,11 +105,7 @@ article img {
     background-color: #e2aa87;
 }
 
-/* 
-h1 {
-	font-size: 2rem;
-	
-} */
+
 
 nav {
 	text-align: right;
@@ -233,6 +231,8 @@ nav {
 .footer-item2 {
     justify-self: flex-end;
 }
+
+/* Contact Page CSS */
 
 .info {
     display: grid;
@@ -377,6 +377,7 @@ figure img {
 figcaption{
     font-family: var(--paragraph-font);
     font-size: 10px;
+    font-weight: bold;
 }
 
 .footer-item1 a{
@@ -397,4 +398,121 @@ figcaption{
 
 .map iframe {
     border: none;
+}
+
+/* Trips Page CSS */
+
+.tmain {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    max-width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.thero {
+    grid-column: 1/2;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 7px 15px rgba(0,0,0, 0.1);
+    border-radius: 1rem;
+}
+
+.thero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.trips {
+    grid-area: 1/2/4/3;
+    position: relative;
+    display: grid;
+    width: 100%;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #e2aa875b;
+    border-radius: 30px;
+    box-shadow: -6px 0px 10px rgba(0,0,0, 0.1);
+    
+}
+
+.trips-1 {
+    display: grid;
+    padding: 1rem;
+    width: 100%;
+    gap: 10px;
+}
+
+.trips-1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.trips-1 p {
+    font-size: 1.2vw;
+}
+
+.trips h3{
+    font-size: 1.3vw;
+}
+.trips-CTA{
+    grid-area: 2/1/3/2;
+    display: grid;
+    text-align: center;
+    margin: 10px auto;
+    align-items: center;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.2vw;
+}
+
+.trips-CTA button{
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: 1.2vw;
+    justify-self: center;
+}
+
+.trips-tables{
+    margin: 20px auto;
+}
+
+.trips-tables table, th, td,tr{
+   
+    border-collapse: collapse;
+   
+}
+
+.trips-tables th{
+    width: 300px;
+    height: 50px;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+.trips-tables td, tr{
+    font-family: var(--paragraph-font);
+    height: 20px;
+    padding: 10px;
+    font-size: 1.1vw;
+    border: 1px solid  rgb(153, 153, 153);
+    
+}
+
+.trips-tables tr:nth-child(even){
+    background-color: #97caf73f;
+}
+.trips-tables tr:nth-child(odd){
+    background-color: rgba(214, 214, 214, 0.836);
+}
+
+.trips-tables td:hover{
+    background-color: #97caf786;
 }
